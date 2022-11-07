@@ -8,10 +8,10 @@
         public $color= 'yellow';
 
         public function move(){
-            echo "The Animal is moving <br>";
+            echo "The Animal of color ".$this-> color. " is moving <br>";
         }
         public function eat(){
-            echo "The Animal is eating <br>";
+            echo "The Animal of weight ".$this->weight." and of height ".$this->height." is eating <br>";
 
         }
     }
