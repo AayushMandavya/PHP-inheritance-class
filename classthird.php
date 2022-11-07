@@ -14,6 +14,10 @@
             echo "The Animal of weight ".$this->weight." and of height ".$this->height." is eating <br>";
 
         }
+        public function getColor()
+        {
+            return $this -> color;
+        }
     }
 
 
@@ -24,7 +28,7 @@
      
      $dog = new Dog();
      $dog -> eat();
-     echo $dog ->color;
+     echo $dog ->getColor();
      echo '<br>';
     $animal = new Animal();
     $animal -> move();
